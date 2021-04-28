@@ -2,8 +2,8 @@ from imports import *
 
 def send_fail(receiver_address):
     mail_content_file = open('fail_body.txt')
-    sender_address = 'YOUR_EMAIL_HERE'
-    sender_pass = 'PASS'
+    sender_address = 'picryptos@gmail.com'
+    sender_pass = 'arinze1020'
     # Setup the MIME
     message = MIMEMultipart()
     message['From'] = "Shanay Ghag and Saarth Deshpande"
